@@ -1,19 +1,17 @@
 <script>
-let f = prompt("digite o valor");
-let opcao = prompt("digite f ou c");
-let ca = 5 * ()
+    let f = prompt("digite o valor");
+    let opcao = prompt("digite f ou c");
 
+    let ca = 5 * (f - 32) / 9;
+    let fa = ca + 1.8 + 32;
 
-
-
-
-
-
-
-
-
-
-
-
-
+    if (opcao == "f" || opcao == 'F') {
+        alert("a temperatura em " + fa + " fahrenheit");
+    }
+    else if (opcao == "c" || opcao == 'C') {
+        alert("a temperatura em " + ca + " celcius");
+    }
+    else {
+        alert("nada deu, tu sabes muito")
+    }
 </script>
